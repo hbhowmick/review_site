@@ -33,3 +33,19 @@ table tr td:hover {
   color: white;
   cursor: pointer;
 }
+
+.mid-right {
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+  z-index: 1;
+}
+
+.selector {
+  color: red;
+}
+
+h6[class="selector"] {
+  color: black;
+  font-size: 250%;
+}
